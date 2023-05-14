@@ -51,5 +51,7 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 		return false;
 	}
 	
+	public abstract int compareTo(Futbolista futbolista);
+	
 	public abstract boolean jugarConLasManos();
 }

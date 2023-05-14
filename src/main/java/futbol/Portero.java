@@ -39,7 +39,6 @@ public class Portero extends Futbolista {
 		return "El futbolista " + this.getNombre() + " tiene " + this.getEdad() + ", y juega de " + this.getPosicion() + " con el dorsal " + dorsal + ". Le han marcado " + golesRecibidos;
 	}
 	
-	@Override
 	public int compareTo(Futbolista futbolista) {
 		Portero portero = (Portero) futbolista;
 		return Math.abs(this.golesRecibidos - portero.golesRecibidos);
